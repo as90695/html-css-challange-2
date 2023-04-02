@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+img
+p
+h2 {
+    margin: 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-right: 2.5rem;
+    padding-bottom: 3.5rem;
+}
+
+h2 {
+    color: hsl(0, 0%, 95%);
+    padding-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    margin: 10%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin: 20% 10% 10%; */
+}
+
+.card {
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 70%;
+    padding: 15% 5% 10%;
+}
+
+.card1 {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card3 {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.btn {
+    position: relative;
+    left: 10%;
+}
+
+.format {
+    position: relative;
+    left: 10%;
+}
+
+.btn1 {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: hsl(31, 77%, 52%);
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 2rem 0;
+  }
+  
+  .btn1:hover {
+    background: hsl(31, 77%, 52%);
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .btn2 {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: hsl(184, 100%, 22%);
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: hsl(184, 100%, 22%);
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .btn3 {
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: hsl(179, 100%, 13%);
+    font-size: 20px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn3:hover {
+    background: hsl(179, 100%, 13%);
+    text-decoration: none;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+  }
